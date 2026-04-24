@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>סיירים</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* ROW = like your screenshot */
+.row {
+  display: grid;
+  grid-template-columns: 120px 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+.label {
+  font-weight: bold;
+}
+
+/* inputs style like your example */
+select, input {
+  height: 32px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+select:focus, input:focus {
+  outline: none;
+  border-color: #2d6cdf;
+  box-shadow: 0 0 0 2px rgba(45,108,223,0.15);
+}
+
+/* buttons like screenshot */
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  flex: 1;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background: #2d6cdf;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.clear {
+  background: #aaa;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>סיירים</h1>
+
+<div class="row">
+  <div class="label">עגור</div>
+  <select>
+    <option></option>
+    <option>דב</option><option>רפאל</option><option>אליעזר</option>
+    <option>עידן</option><option>יום</option><option>אנואר</option>
+    <option>סטפן</option><option>אלכס</option><option>אבי</option><option>איילון</option>
+  </select>
+  <input type="text">
+</div>
+
+<div class="row">
+  <div class="label">שנקאי</div>
+  <select>
+    <option></option>
+    <option>דב</option><option>רפאל</option><option>אליעזר</option>
+    <option>עידן</option><option>יום</option><option>אנואר</option>
+    <option>סטפן</option><option>אלכס</option><option>אבי</option><option>איילון</option>
+  </select>
+  <input type="text">
+</div>
+
+<div class="row">
+  <div class="label">עיט</div>
+  <select>
+    <option></option>
+    <option>דב</option><option>רפאל</option><option>אליעזר</option>
+    <option>עידן</option><option>יום</option><option>אנואר</option>
+    <option>סטפן</option><option>אלכס</option><option>אבי</option><option>איילון</option>
+  </select>
+  <input type="text">
+</div>
+
+<div class="row">
+  <div class="label">שחף</div>
+  <select>
+    <option></option>
+    <option>דב</option><option>רפאל</option><option>אליעזר</option>
+    <option>עידן</option><option>יום</option><option>אנואר</option>
+    <option>סטפן</option><option>אלכס</option><option>אבי</option><option>איילון</option>
+  </select>
+  <input type="text">
+</div>
+
+<div class="row">
+  <div class="label">דרור</div>
+  <select>
+    <option></option>
+    <option>דב</option><option>רפאל</option><option>אליעזר</option>
+    <option>עידן</option><option>יום</option><option>אנואר</option>
+    <option>סטפן</option><option>אלכס</option><option>אבי</option><option>איילון</option>
+  </select>
+  <input type="text">
+</div>
+
+
+
+</div>
+
+</body>
+</html>
